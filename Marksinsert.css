@@ -1,58 +1,68 @@
-.head{
-   text-decoration: underline;
-   text-align: center;
+.head {
+    text-decoration: underline;
+    text-align: center;
 }
-*{
-    margin:0px;
+
+* {
+    margin: 0px;
     font-family: 'Montserrat', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Poppins', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-.add{
+
+.add {
     display: grid;
     grid-template-columns: 150px 150px 150px 150px;
     column-gap: 20px;
     row-gap: 20px;
 }
-.list{
+
+.list {
     display: grid;
     grid-template-columns: 150px 150px 150px 150px;
     column-gap: 20px;
     row-gap: 20px;
 
 }
-.heading{
+
+.heading {
     display: grid;
     grid-template-columns: 150px 150px 150px 150px;
     column-gap: 20px;
     row-gap: 20px;
 
 }
-.name{
+
+.name {
     height: 50px;
     font-size: 13px;
 }
-.submit{
+
+.submit {
     background-color: green;
     cursor: pointer;
     border: none;
-    color:white;
+    color: white;
     font-size: larger;
     border-radius: 12px;
     transition: all;
     transition-duration: 1s;
 
 }
-.submit:hover{
+
+.submit:hover {
     background-color: rgb(44, 219, 44);
-    color:black;
+    color: black;
 }
-.del{
-    background-color:purple;
+
+.del {
+    background-color: purple;
     cursor: pointer;
     border: none;
-    color:white;
+    color: white;
     font-size: larger;
     border-radius: 12px;
     height: 40px;
 }
+
+/* HENCE THIS IS CSS */
